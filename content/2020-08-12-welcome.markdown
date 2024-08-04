@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Welcome to my blog"
+date:   2020-08-12 00:18:23 +0700
+categories: [meta]
+---
+
+Hi! My name is Athreya Chandramouli. I am an undergraduate student pursuing an Integrated Bachelor of Technology + Master of Science by Research in Computer Science and Engineering at <a target='_blank' href="https://www.iiit.ac.in/"> IIIT, Hyderabad </a>. 
+
+My interests lie, broadly, in theoretical computer science. I am currently working through Prof. Ryan O'Donnell's wonderful <a target='_blank' href="https://www.youtube.com/watch?v=prI35GmCon4&list=PLm3J0oaFux3ZYpFLwwrlv_EHH9wtH6pnX"> CS Theory Toolkit </a> course. I am also reading about Markov Chain sampling from  <a target='_blank' href="https://pages.uoregon.edu/dlevin/MARKOV/"> Markov Chains and Mixing Times </a> by Prof. Levin and Peres.
+
+**This blog is meant to be a repository for interesting things that come up when I am reading about theory, systems or tech.** 
+
+A passion of mine is Origami, the Japanese art of paperfolding. You can find some of my work <a target='_blank' href="https://www.flickr.com/photos/athreya_origami/"> here</a>. I am always interested in problems at the intersection of origami and theoretical CS. 
+
+The name of the blog came from these two interests. I am always looking for paper to fold and always looking for papers to read. (It is also a nod to an extremely creative game by <a href="https://dukope.com/">Lucas Pope</a>)
+
+Feel free to point out mistakes (I tend to make a bunch of them). You can leave more general feedback (anonymously!) <a target='_blank' href="https://www.admonymous.co/threya">here</a>.
+
+Do visit my <a target="_blank" href="https://researchweb.iiit.ac.in/~athreya.chandramouli/">profile page</a> for more information about me!

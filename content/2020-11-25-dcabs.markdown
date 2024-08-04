@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Decentralized Cabs on a Blockchain"
+date:   2020-11-25 00:18:23 +0700
+categories: [blockchain]
+---
+
+In Monsoon 2020, I did a course on blockchains by [Prof. Sujit Gujar](https://sites.google.com/site/sujitgujar/). An interesting assignment was to come up with a usecase that could be realized using blockchain technology. Our team came up with dCabs, a decentralized cab service on a blockchain. Our unique idea was using the underlying gossip protocol messages to piggyback driver locations to clients. While we are unsure how to acheive this in practice, we did code up a proof of concept in Solidity for the contract (which I will post once the course is done). 
+
+<object data="/static/pdf/dcabs.pdf" width="100%" height="1000" type='application/pdf'/>

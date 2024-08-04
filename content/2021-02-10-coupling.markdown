@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Coupling"
+date:   2021-02-10 00:18:23 +0700
+categories: [MCMC, tcs]
+---
+
+In the [post on Analyzing Markov Chains using Coupling]({% post_url 2020-12-07-markov_chain_analysis_by_coupling %}), we saw a way to analyze how quickly a Markov Chain mixes by bounding the expected time taken by two arbitrary states to coalesce. This was possible because of a magical theorem that relates the two. Here we'll see how we build up to that theorem. 
+
+As part of an MCMC reading group at IIITH during Spring 2021, I presented Coupling and Path Coupling as tools to analyze the mixing times of Markov Chains. These notes (based on Markov Chains and Mixing Times by Peres et. al.) I describe coupling, an application and some proofs that lead to the afforementioned theorems.
+
+<object data="/static/pdf/Coupling Notes.pdf" width="100%" height="1000" type='application/pdf'/>
+
