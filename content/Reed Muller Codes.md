@@ -15,4 +15,4 @@ The first algorithm of interest is called Majority Logic Decoding. This uses som
 
 The second algorithm is for a special case where the degree of every monomial is one. In this case, we can manipulate the generator matrix to make it look like Hadamard Matrix! Then we use a well known idea called the Fast Hadamard Transform to generate compare codewords with the received vector.
 
-I have coded up both these decoding algorithms. The implementation can be found [here](https://github.com/cathreya/cathreya.github.io/blob/master/static/notebooks/Reed-Muller-Codes.ipynb).![[ReedMuller.pdf]]
+I have coded up both these decoding algorithms. The implementation can be found [here](https://github.com/cathreya/cathreya.github.io/blob/master/static/notebooks/Reed-Muller-Codes.ipynb).![[static/ReedMuller.pdf]]
