@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Topics in Coding Theory: RS Codes and the Berlekamp-Welch Algorithm"
-date:   2021-05-25 00:18:23 +0700
-categories: [coding_theory, tcs]
+title: "Topics in Coding Theory: RS Codes and the Berlekamp-Welch Algorithm"
+date: 2021-05-25 00:18:23 +0700
+tags:
+  - coding_theory
+  - tcs
 ---
 
 In Spring 2021, I did a course called Topics in Coding Theory by [Prof. Prasad Krishnan](https://faculty.iiit.ac.in/~prasad.krishnan/index.html). I thought I'll post some of my notes from the course here grouped by topic. 

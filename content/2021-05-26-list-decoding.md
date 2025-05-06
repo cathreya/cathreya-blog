@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Topics in Coding Theory: List Decoding of RS Codes"
-date:   2021-05-26 00:18:23 +0700
-categories: [coding_theory, tcs]
+title: "Topics in Coding Theory: List Decoding of RS Codes"
+date: 2021-05-26 00:18:23 +0700
+tags:
+  - coding_theory
+  - tcs
 ---
 
 In Spring 2021, I did a course called Topics in Coding Theory by [Prof. Prasad Krishnan](https://faculty.iiit.ac.in/~prasad.krishnan/index.html). I thought I'll post some of my notes from the course here grouped by topic. Check out the previous posts on [Berlekamp-Welch decoding]({% post_url 2021-05-24-rs-decoding-bw-algo %}).
@@ -14,6 +16,5 @@ Naturally, we are interested in lists of polynomial length. This could enable us
 Finally we explore three algorithms for List Decoding. Each algorithm build upon the previous one and gets closer and closer to acheiving Johnson's bound.
 
 In case you prefer LaTeX, I have the last lecture (with the third algorithm) scribed [here.](/static/pdf/TCT_Lec_10_Scribe.pdf)
-
 
 <object data="/static/pdf/ListDecoding.pdf" width="100%" height="1000" type='application/pdf'/>

@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Analyzing Markov Chains using Coupling"
-date:   2020-12-07 00:18:23 +0700
-categories: [MCMC, tcs]
+title: Analyzing Markov Chains using Coupling
+date: 2020-12-07 00:18:23 +0700
+tags:
+  - MCMC
+  - tcs
 ---
 
 Consider the problem of sampling a binary string of length $$n$$ from the set of all binary strings of length $$n$$. An easy way to do this is to toss a coin $$n$$ times and choose the string suggested by the output of these coin tosses. But for exposition's sake lets try to do this using a Markov Chain.

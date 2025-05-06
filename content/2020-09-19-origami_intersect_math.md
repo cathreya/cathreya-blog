@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Origami ∩ Math"
-date:   2020-09-19 00:18:23 +0700
-categories: [origami]
+title: Origami ∩ Math
+date: 2020-09-19 00:18:23 +0700
+tags:
+  - origami
 ---
 
 I gave a talk for the <a target="_blank" href="https://iiittheorygroup.github.io/"> Theory Group of IIIT - Hyderabad </a> as a part of the Seminar Saturdays initative. It was the first time I was giving a talk to an audience! 

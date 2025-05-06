@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Regenerating Codes"
-date:   2020-12-12 00:18:23 +0700
-categories: [coding_theory, tcs]
+title: Regenerating Codes
+date: 2020-12-12 00:18:23 +0700
+tags:
+  - coding_theory
+  - tcs
 ---
 I was reading a paper titled ["Network Coding for Distributed Storage Systems"](https://users.ece.utexas.edu/~dimakis/RC_Journal.pdf) by Dimakis et. al. Here I'll try to present some of the main theoretical ideas proposed. **Note:** This is **not** my work, I just use the word "our" to make it easier for me to communicate some ideas. 
 

@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Coded Distributed Computing Part 3: A General Scheme"
-date:   2020-08-29 00:18:23 +0700
-categories: [coding_theory, tcs]
+title: "Coded Distributed Computing Part 3: A General Scheme"
+date: 2020-08-29 00:18:23 +0700
+tags:
+  - coding_theory
+  - tcs
 ---
 
 I have been reading this <a target="_blank" href="https://arxiv.org/abs/1604.07086" >paper </a> and want to share some interesting ideas that are presented. If you haven't already, take a look at [part 1]({% post_url 2020-08-26-coded_distributed_computing %}) and [part 2]({% post_url 2020-08-27-coded_distributed_computing2 %}).

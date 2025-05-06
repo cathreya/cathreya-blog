@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Coded Data Rebalancing"
-date:   2020-12-12 00:18:23 +0700
-categories: [coding_theory, tcs]
+title: Coded Data Rebalancing
+date: 2020-12-12 00:18:23 +0700
+tags:
+  - coding_theory
+  - tcs
 ---
 
 I was reading this [paper](https://arxiv.org/abs/2001.04939) by Prasad et. al. Here I'll try to motivate the problem and talk about the cool scheme proposed in the paper. **Note:** This is **not** my work, I just use the word "our" to make it easier for me to communicate some ideas. 

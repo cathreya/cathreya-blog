@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Coded Distributed Computing Part 1: Motivation"
-date:   2020-08-26 00:18:23 +0700
-categories: [coding_theory, tcs]
+title: "Coded Distributed Computing Part 1: Motivation"
+date: 2020-08-26 00:18:23 +0700
+tags:
+  - coding_theory
+  - tcs
 ---
 
 I have been reading this <a target="_blank" href="https://arxiv.org/abs/1604.07086" >paper </a> and want to share some interesting ideas that are presented.

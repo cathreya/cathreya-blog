@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Repairable Product Matrix Codes"
-date:   2021-01-27 00:18:23 +0700
-categories: [coding_theory, tcs]
+title: Repairable Product Matrix Codes
+date: 2021-01-27 00:18:23 +0700
+tags:
+  - coding_theory
+  - tcs
 ---
 
 In the [last post on Repairable Codes]({% post_url 2020-12-09-repairable-codes %}), I described some bounds on the fraction of data that is to be strored in order to minimize the communication load during the repair. Here I'll describe an actual code that acheives these bounds and also describe how the repair and recovery processes work. This construction is from ["Optimal Exact-Regenerating Codes for Distributed Storage at the MSR and MBR Points via a Product-Matrix Construction"](https://www.cs.cmu.edu/~rvinayak/papers/product_matrix_codes.pdf).

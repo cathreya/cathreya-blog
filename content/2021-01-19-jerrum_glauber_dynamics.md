@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Glauber Dynamics is rapid mixing for k > 2Δ"
-date:   2021-01-19 00:18:23 +0700
-categories: [MCMC, tcs]
+title: Glauber Dynamics is rapid mixing for k > 2Δ
+date: 2021-01-19 00:18:23 +0700
+tags:
+  - MCMC
+  - tcs
 ---
 
 Glauber Dynamics is a well studied Markov Chain to sample k-colorings of a graph. However, a basic coupling/path coupling analysis of Glauber Dynamics requires $$k > 3\Delta$$ for the chain to be rapid mixing. However, it is hypothesized (and intuitive) that the chain should be rapid mixing for any $$k > \Delta + 2 $$. Bringing this gap down is a popular open problem. [Jerrum](https://www.math.cmu.edu/~af1p/Teaching/MCC17/Papers/colorJ.pdf) used an extremely clever coupling to bring it down to $$ k > 2\Delta $$. Here I'll give a simple path coupling proof that uses the same idea.
