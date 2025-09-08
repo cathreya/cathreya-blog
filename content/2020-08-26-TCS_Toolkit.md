@@ -10,4 +10,4 @@ I am working through Prof. Ryan O'Donnell's wonderful <a target='_blank' href="h
 
 This currently has my notes from Lecture 1 to 13.
 
-<object data="static/pdf/TCS Toolkit 1-13.pdf" width="100%" height="1000" type='application/pdf'/>
+<object data="static/pdf/TCS_Toolkit_1_13.pdf" width="100%" height="1000" type='application/pdf'/>

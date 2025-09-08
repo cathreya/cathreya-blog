@@ -27,9 +27,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.TableOfContents()),
   ],
   right: [],
+  afterBody: [],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
@@ -40,7 +41,32 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.TableOfContents()),
   ],
   right: [],
+  afterBody: [],
+}
+
+// Custom layout specifically for the index/landing page
+export const indexPageLayout: PageLayout = {
+  beforeBody: [
+    Component.Breadcrumbs(),
+    Component.ArticleTitle(),
+    Component.ContentMeta(),
+    Component.TagList(),
+  ],
+  left: [
+    Component.PageTitle(),
+    Component.MobileOnly(Component.Spacer()),
+    Component.Search(),
+    Component.Darkmode(),
+    Component.DesktopOnly(Component.TableOfContents()),
+  ],
+  right: [],
+  afterBody: [
+    Component.RecentNotes({
+      title: "Blog Posts",
+      showTags: true,
+    }),
+  ],
 }
