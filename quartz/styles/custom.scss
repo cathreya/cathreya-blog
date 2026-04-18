@@ -40,20 +40,27 @@
 
   // The right sidebar is empty site-wide. Re-center the (left sidebar + center)
   // assembly so it sits in the middle of the viewport instead of hugging the left.
-  // Also vertically center the sidebar content so it doesn't float awkwardly at the top.
   .page > #quartz-body > .sidebar.left {
     left: calc((100vw - #{$pageWidth} - #{$sidePanelWidth}) / 2);
-    top: 0;
-    bottom: 0;
-    height: 100vh;
-    margin-top: 0;
-    justify-content: center;
   }
 
   .page > #quartz-body > .center,
   .page > footer {
     margin-left: calc((100vw - #{$pageWidth} - #{$sidePanelWidth}) / 2 + #{$sidePanelWidth});
     margin-right: 0;
+  }
+
+  // On the index page the sidebar is tall (PageTitle + nav + search + darkmode +
+  // AboutMe bio + socials), so vertically centering it lines up nicely with the
+  // post list. On content pages the sidebar has only four short items and
+  // centering leaves 150+px of blank space above the branding, misaligning with
+  // the main column's breadcrumb. Only center on the index.
+  body[data-slug="index"] .page > #quartz-body > .sidebar.left {
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    margin-top: 0;
+    justify-content: center;
   }
 }
 
