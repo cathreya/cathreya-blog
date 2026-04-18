@@ -57,7 +57,8 @@ Clearly $$\Psi$$ must have $$n$$ rows. It'll later become aparent that the const
 ## The MSR Construction
 At the MSR point, $$\alpha = d-k+1$$ and $$ B = k(d-k+1)$$. We'll construct a code for $$ d = 2k-2 $$ and will later show how to extend it for larger $$d$$. Thus we have $$ \alpha = 2k-2 -k+1 = k-1$$ and $$ B = k \alpha = \alpha (\alpha+1) $$. So to arrange our message symbols into a $$ d \times \alpha = 2\alpha \times \alpha$$ matrix we let the matrix 
 
-$$ M = \begin{bmatrix}
+$$
+M = \begin{bmatrix}
    S1  \\
    S2
 \end{bmatrix}
@@ -67,14 +68,16 @@ where $$S1$$ and $$S2$$ are $$ \alpha \times \alpha $$ symmetric matrices. Notic
 
 Now our encoding matrix $$ \Psi $$ is an $$(n \times d)$$ matrix of the form 
 
-$$ \Psi = \begin{bmatrix}
+$$
+\Psi = \begin{bmatrix}
    \Phi && \Lambda \Phi
 \end{bmatrix}
 $$
 
 where $$\Phi$$ is an $$(n \times \alpha)$$ matrix and $$\Lambda$$ is an $$(n \times n)$$ diagonal matrix. This is because the encoded message will be 
 
-$$ C = \begin{bmatrix}
+$$
+C = \begin{bmatrix}
    \Phi S1 +  \Lambda \Phi S2
 \end{bmatrix}
 $$

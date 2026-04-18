@@ -31,13 +31,14 @@ Choose $$d(\sigma,\tau)$$ to be the number of vertices where the colorings diffe
 1. Else set $$\sigma_{t+1}(w) = \sigma_{t}(w)$$ for all $$w \in V$$.
 
 Where 
+
 $$
 f(c) = \begin{cases}
    \sigma_t(u) &\text{if } c = \tau_t(u) \\
    \tau_t(u) &\text{if } c = \sigma_t(u) \\
    c &\text{otherwise}
 \end{cases}
-$$.
+$$
 
 It is simple to see that this is indeed a coupling. Each chain when viewed in isolation evolves exactly like Glauber Dynamics. In order to bound $$ E[d(\sigma_1, \tau_1)]$$ lets look at the possible cases.
 
