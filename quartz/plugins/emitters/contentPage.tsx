@@ -10,7 +10,11 @@ import { pageResources, renderPage } from "../../components/renderPage"
 import { FullPageLayout } from "../../cfg"
 import { Argv } from "../../util/ctx"
 import { FilePath, isRelativeURL, joinSegments, pathToRoot } from "../../util/path"
-import { defaultContentPageLayout, sharedPageComponents } from "../../../quartz.layout"
+import {
+  defaultContentPageLayout,
+  indexPageLayout,
+  sharedPageComponents,
+} from "../../../quartz.layout"
 import { Content } from "../../components"
 import chalk from "chalk"
 import { write } from "./helpers"
@@ -59,6 +63,13 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
     ...userOpts,
   }
 
+  const indexOpts: FullPageLayout = {
+    ...sharedPageComponents,
+    ...indexPageLayout,
+    pageBody: Content(),
+    ...userOpts,
+  }
+
   const { head: Head, header, beforeBody, pageBody, afterBody, left, right, footer: Footer } = opts
   const Header = HeaderConstructor()
   const Body = BodyConstructor()
@@ -77,6 +88,10 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
         ...left,
         ...right,
         Footer,
+        ...indexOpts.beforeBody,
+        ...indexOpts.afterBody,
+        ...indexOpts.left,
+        ...indexOpts.right,
       ]
     },
     async getDependencyGraph(ctx, content, _resources) {
@@ -117,7 +132,8 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
           allFiles,
         }
 
-        const content = renderPage(cfg, slug, componentData, opts, externalResources)
+        const layoutOpts = slug === "index" ? indexOpts : opts
+        const content = renderPage(cfg, slug, componentData, layoutOpts, externalResources)
         const fp = await write({
           ctx,
           content,

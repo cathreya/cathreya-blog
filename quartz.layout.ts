@@ -47,26 +47,22 @@ export const defaultListPageLayout: PageLayout = {
   afterBody: [],
 }
 
+const isPost = (f: { slug?: string }) => !!f.slug?.startsWith("Posts/")
+
 // Custom layout specifically for the index/landing page
 export const indexPageLayout: PageLayout = {
-  beforeBody: [
-    Component.Breadcrumbs(),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
-    Component.TagList(),
-  ],
+  beforeBody: [Component.ArticleTitle()],
   left: [
     Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.TableOfContents()),
+    Component.DesktopOnly(Component.AboutMe()),
   ],
   right: [],
   afterBody: [
-    Component.RecentNotes({
-      title: "Blog Posts",
-      showTags: true,
+    Component.PostList({
+      limit: 1000,
+      filter: isPost,
     }),
   ],
 }

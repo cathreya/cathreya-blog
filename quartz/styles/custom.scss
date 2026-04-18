@@ -1,3 +1,76 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
 
-// put your custom CSS here!
+// In the stacked/narrow layout, Quartz sets the left sidebar's row gap to 0.
+// Restore some breathing room between title, search, and darkmode.
+@media all and (max-width: $fullPageWidth) {
+  .page > #quartz-body .sidebar.left {
+    gap: 1.25rem;
+
+    & > .search {
+      flex-grow: 0;
+      margin-left: auto;
+    }
+  }
+}
+
+@media all and (min-width: calc(#{$fullPageWidth} + 1px)) {
+  // Default sidebar padding (4rem each side) is too aggressive at our narrow
+  // sidePanelWidth; tighten so content fits comfortably.
+  #quartz-body .sidebar {
+    padding: 0 1.5rem;
+  }
+
+  // Put search + darkmode on the same row in the left sidebar
+  #quartz-body .sidebar.left {
+    & > .search {
+      width: calc(100% - 3.25rem);
+      max-width: none;
+      align-self: flex-start;
+      flex: 0 0 auto;
+    }
+
+    & > .darkmode {
+      // sidebar has gap: 2rem and search is 2rem tall, so darkmode naturally
+      // sits 4rem below the top of search. Pull it back up and push it right.
+      margin-top: -4rem;
+      align-self: flex-end;
+    }
+  }
+
+  // The right sidebar is empty site-wide. Re-center the (left sidebar + center)
+  // assembly so it sits in the middle of the viewport instead of hugging the left.
+  // Also vertically center the sidebar content so it doesn't float awkwardly at the top.
+  .page > #quartz-body > .sidebar.left {
+    left: calc((100vw - #{$pageWidth} - #{$sidePanelWidth}) / 2);
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    margin-top: 0;
+    justify-content: center;
+  }
+
+  .page > #quartz-body > .center,
+  .page > footer {
+    margin-left: calc((100vw - #{$pageWidth} - #{$sidePanelWidth}) / 2 + #{$sidePanelWidth});
+    margin-right: 0;
+  }
+}
+
+// Home-page hero title: big, bold, and readable
+body[data-slug="index"] {
+  .page-header .article-title {
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin: 0 0 1.5rem 0;
+    color: var(--secondary);
+  }
+
+  .center > hr {
+    margin: 0.5rem auto 0 auto;
+  }
+  .center > .page-footer {
+    margin-top: 0.5rem;
+  }
+}

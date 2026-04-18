@@ -1,0 +1,52 @@
+.about-me {
+  font-size: 0.95rem;
+  line-height: 1.5;
+
+  .about-me-name {
+    margin: 0 0 0.75rem 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+
+    a {
+      color: var(--secondary);
+      text-decoration: none;
+      background-color: transparent;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  p {
+    margin: 0 0 0.75rem 0;
+    color: var(--darkgray);
+  }
+
+  .about-me-links {
+    font-size: 0.9rem;
+  }
+
+  ul.about-me-socials {
+    list-style: none;
+    padding: 0;
+    margin: 0.75rem 0 0 0;
+    display: flex;
+    gap: 0.9rem;
+
+    li a {
+      color: var(--gray);
+      background-color: transparent;
+      display: inline-flex;
+      align-items: center;
+
+      &:hover {
+        color: var(--secondary);
+      }
+
+      svg {
+        display: block;
+      }
+    }
+  }
+}

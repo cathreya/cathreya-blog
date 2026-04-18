@@ -20,6 +20,9 @@ import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
+import AboutMe from "./AboutMe"
+import AboutLink from "./AboutLink"
+import PostList from "./PostList"
 
 export {
   ArticleTitle,
@@ -44,4 +47,7 @@ export {
   NotFound,
   Breadcrumbs,
   Comments,
+  AboutMe,
+  AboutLink,
+  PostList,
 }
