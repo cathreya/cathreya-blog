@@ -11,6 +11,6 @@ At STOC 2020, I attend the workshop on [New frontiers in approximate counting](h
 
 Here are the notes I took while I read this. I usually write these because it helps me focus and so they were mostly made for my own reference. However I decided to put them up regardless. 
 
-<object data="/static/pdf/Randall Survey.pdf" width="100%" height="1000" type='application/pdf'/>
+<object data="/static/pdf/Randall-Survey.pdf" width="100%" height="1000" type='application/pdf'/>
 
 

@@ -13,4 +13,4 @@ But even in the simple example we saw there, we had to intelligently define the 
 
 As part of an MCMC reading group at IIITH during Spring 2021, I presented Coupling and Path Coupling as tools to analyze the mixing times of Markov Chains. These notes are (hopefully) self contained as long as you understand the basics of Markov Chains and Coupling. 
 
-<object data="/static/pdf/Path Coupling Notes.pdf" width="100%" height="1000" type='application/pdf'/>
+<object data="/static/pdf/Path-Coupling-Notes.pdf" width="100%" height="1000" type='application/pdf'/>
