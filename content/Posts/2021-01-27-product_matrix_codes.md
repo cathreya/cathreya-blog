@@ -7,7 +7,7 @@ tags:
   - tcs
 ---
 
-In the [last post on Repairable Codes]({% post_url 2020-12-09-repairable-codes %}), I described some bounds on the fraction of data that is to be strored in order to minimize the communication load during the repair. Here I'll describe an actual code that acheives these bounds and also describe how the repair and recovery processes work. This construction is from ["Optimal Exact-Regenerating Codes for Distributed Storage at the MSR and MBR Points via a Product-Matrix Construction"](https://www.cs.cmu.edu/~rvinayak/papers/product_matrix_codes.pdf).
+In the [last post on Repairable Codes](/Posts/2020-12-09-repairable-codes), I described some bounds on the fraction of data that is to be strored in order to minimize the communication load during the repair. Here I'll describe an actual code that acheives these bounds and also describe how the repair and recovery processes work. This construction is from ["Optimal Exact-Regenerating Codes for Distributed Storage at the MSR and MBR Points via a Product-Matrix Construction"](https://www.cs.cmu.edu/~rvinayak/papers/product_matrix_codes.pdf).
 
 **Note:** This is **not** my work, I just use the word "our" to make it easier for me to communicate some ideas. 
 

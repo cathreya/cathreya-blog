@@ -7,7 +7,7 @@ tags:
   - tcs
 ---
 
-In Spring 2021, I did a course called Topics in Coding Theory by [Prof. Prasad Krishnan](https://faculty.iiit.ac.in/~prasad.krishnan/index.html). I thought I'll post some of my notes from the course here grouped by topic. Check out the previous posts on [Berlekamp-Welch decoding]({% post_url 2021-05-24-rs-decoding-bw-algo %}).
+In Spring 2021, I did a course called Topics in Coding Theory by [Prof. Prasad Krishnan](https://faculty.iiit.ac.in/~prasad.krishnan/index.html). I thought I'll post some of my notes from the course here grouped by topic. Check out the previous posts on [Berlekamp-Welch decoding](/Posts/2021-05-24-rs-decoding-bw-algo).
 
 A natural relaxation to the decoding problem is to remove the need to output a single candidate codeword. In the case of list decoding, we allow the decoder to output a *list* of candidate codewords. We consider the list decoding to be correct as long as one of the codewords in the list is the transmitted codeword. 
 

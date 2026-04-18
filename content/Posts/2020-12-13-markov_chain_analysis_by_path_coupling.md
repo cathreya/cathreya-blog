@@ -7,7 +7,7 @@ tags:
   - tcs
 ---
 
-In the [post on Analyzing Markov Chains using Coupling]({% post_url 2020-12-07-markov_chain_analysis_by_coupling %}), we saw a way to analyze how quickly a Markov Chain mixes by bounding the expected time taken by two arbitrary states to coalesce. 
+In the [post on Analyzing Markov Chains using Coupling](/Posts/2020-12-07-markov_chain_analysis_by_coupling), we saw a way to analyze how quickly a Markov Chain mixes by bounding the expected time taken by two arbitrary states to coalesce. 
 
 But even in the simple example we saw there, we had to intelligently define the geometric random variables and carefully analyze them. Lets look at an even more powerful hammer: Path Coupling (courtesy of Bubley, Dyer).
 

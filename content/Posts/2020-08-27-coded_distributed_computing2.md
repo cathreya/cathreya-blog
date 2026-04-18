@@ -7,7 +7,7 @@ tags:
   - tcs
 ---
 
-I have been reading this <a target="_blank" href="https://arxiv.org/abs/1604.07086" >paper </a> and want to share some interesting ideas that are presented. If you haven't already, take a look at [part 1]({% post_url 2020-08-26-coded_distributed_computing %}).
+I have been reading this <a target="_blank" href="https://arxiv.org/abs/1604.07086" >paper </a> and want to share some interesting ideas that are presented. If you haven't already, take a look at [part 1](/Posts/2020-08-26-coded_distributed_computing).
 
 **Note:** This is **not** my work, I just use the word "our" to make it easier for me to communicate some ideas.
 
