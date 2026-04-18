@@ -14,6 +14,4 @@ Things I am proud of:
 
 I am currently a SWE at Google in Sunnyvale CA. I previously did Algorithms and Coding Theory research at [IIIT Hyderabad](https://www.iiit.ac.in/) where I worked with [Prasad Krishnan](https://faculty.iiit.ac.in/~prasad.krishnan/), [Kishore Kothapalli](https://faculty.iiit.ac.in/~kkishore/), and [Girish Varma](https://girishvarma.in/).
 
-[Resume](/static/pdf/1_page_Research_SWE_CV.pdf)
-
-Send me (anonymous) feedback [here](https://www.admonymous.co/threya).
+Download my [resume](/static/pdf/1_page_Research_SWE_CV.pdf), or send me (anonymous) feedback [here](https://www.admonymous.co/threya).

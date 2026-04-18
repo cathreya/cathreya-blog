@@ -64,6 +64,12 @@
   }
 }
 
+// The /about page is not a blog post — hide the reading-time/date meta
+// that the default content layout stamps above the body.
+body[data-slug="about"] .content-meta {
+  display: none;
+}
+
 // Home-page hero title: big, bold, and readable
 body[data-slug="index"] {
   .page-header .article-title {
