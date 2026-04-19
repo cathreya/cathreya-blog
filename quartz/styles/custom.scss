@@ -96,6 +96,16 @@ body[data-slug="about"] .content-meta {
   justify-content: flex-start;
 }
 
+// On very narrow viewports (iPhone SE and similar ≤360px), the fixed-width date
+// column in the post list squeezes titles to ~15 chars ("Topics in Coding…").
+// Hide dates below this threshold — titles matter more than exact dates on
+// the index, and users can always click through.
+@media all and (max-width: 360px) {
+  .post-list .post-list-meta {
+    display: none;
+  }
+}
+
 body[data-slug="index"] {
   .page-header .article-title {
     font-size: 1.75rem;
