@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Origami ∩ Math
+description: A seminar talk for IIIT Hyderabad's Theory Group on the math behind modern origami design, based on Robert J. Lang's Origami Design Secrets.
 date: 2020-09-19 00:18:23 +0700
 tags:
   - origami

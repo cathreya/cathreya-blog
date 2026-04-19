@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Discrete Geometry: Independent Study"
+description: Notes from an independent study on discrete geometry, following Matoušek's "Lectures on Discrete Geometry" and Prof. Rajiv Raman's lecture notes.
 date: 2020-08-20 00:18:23 +0700
 tags:
   - tcs

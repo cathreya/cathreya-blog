@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Coded Distributed Computing Part 1: Motivation"
+description: Part 1 of a series walking through Li et al.'s coded distributed computing paper — the MapReduce framework and the computation-communication tradeoff.
 date: 2020-08-26 00:18:23 +0700
 tags:
   - coding_theory

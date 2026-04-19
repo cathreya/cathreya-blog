@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Coded Data Rebalancing
+description: Notes on Prasad et al.'s coded rebalancing scheme — using coded multicasts to cut communication when a node leaves a replicated distributed store.
 date: 2020-12-12 00:18:23 +0700
 tags:
   - coding_theory

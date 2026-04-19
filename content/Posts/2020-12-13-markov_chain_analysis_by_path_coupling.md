@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Analyzing Markov Chains using Path Coupling
+description: Reading-group notes on path coupling (Bubley and Dyer) — a more powerful hammer than plain coupling for bounding Markov chain mixing times.
 date: 2021-02-11 00:18:23 +0700
 tags:
   - MCMC

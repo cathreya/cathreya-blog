@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Topics in Coding Theory: List Decoding of RS Codes"
+description: Course notes on list decoding of Reed-Solomon codes, covering three algorithms that progressively approach Johnson's bound.
 date: 2021-05-26 00:18:23 +0700
 tags:
   - coding_theory

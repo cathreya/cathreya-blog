@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Complexity of the Stamp Folding Problem
+description: An old course video exploring the computational complexity of the stamp folding problem.
 date: 2020-10-12 00:18:23 +0700
 tags:
   - origami

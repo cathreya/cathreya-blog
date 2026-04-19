@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Alternative Mechanisms to the Toss in Cricket
+description: A game-theoretic analysis of alternatives to the traditional coin toss in Test cricket, motivated by the 2021 India-England series.
 date: 2020-11-25 00:18:23 +0700
 tags:
   - gametheory

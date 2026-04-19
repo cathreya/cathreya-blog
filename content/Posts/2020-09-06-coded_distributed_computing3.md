@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Coded Distributed Computing Part 3: A General Scheme"
+description: Part 3 of the coded distributed computing series — generalizing the coded multicast scheme beyond the running example.
 date: 2020-08-29 00:18:23 +0700
 tags:
   - coding_theory

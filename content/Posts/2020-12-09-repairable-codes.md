@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Regenerating Codes
+description: An introduction to regenerating codes and the storage vs. repair-bandwidth tradeoff, based on Dimakis et al.'s network coding paper.
 date: 2020-12-12 00:18:23 +0700
 tags:
   - coding_theory

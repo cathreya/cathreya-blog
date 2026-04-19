@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mixing - Dana Randall
+description: Reading notes on Dana Randall's survey of techniques for bounding MCMC mixing times — an accessible overview of the field.
 date: 2020-12-04 00:18:23 +0700
 tags:
   - MCMC

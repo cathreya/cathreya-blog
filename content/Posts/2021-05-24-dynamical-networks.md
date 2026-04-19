@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Dynamical Systems on Networks
+description: Course project analyzing high-dimensional dynamical systems as networks, including mean-field approximations for cases where the full network is unknown.
 date: 2021-05-24 00:18:23 +0700
 tags:
   - dynamics

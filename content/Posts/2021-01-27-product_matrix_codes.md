@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Repairable Product Matrix Codes
+description: An explicit construction of regenerating codes that achieves the optimal storage vs. repair-bandwidth tradeoff, following the product-matrix paper by Rashmi, Shah, and Kumar.
 date: 2021-01-27 00:18:23 +0700
 tags:
   - coding_theory

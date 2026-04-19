@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CS Theory Toolkit Notes: Lec 1-13"
+description: Handwritten notes from Prof. Ryan O'Donnell's CS Theory Toolkit course, covering Lectures 1 through 13.
 date: 2020-08-26 00:18:23 +0700
 tags:
   - tcs

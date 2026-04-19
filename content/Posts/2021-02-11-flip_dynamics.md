@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Flip Dynamics
+description: Reading notes on Vigoda's Flip Dynamics — a new Markov chain used to prove Glauber Dynamics is rapid mixing for k > 11Δ/6 via a comparison theorem.
 date: 2021-02-11 00:18:23 +0700
 tags:
   - MCMC

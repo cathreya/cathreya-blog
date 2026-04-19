@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Coded Distributed Computing Part 2: A Scheme For The Example"
+description: Part 2 of the coded distributed computing series — constructing an explicit coded multicast scheme for the running MapReduce example.
 date: 2020-08-29 00:18:23 +0700
 tags:
   - coding_theory

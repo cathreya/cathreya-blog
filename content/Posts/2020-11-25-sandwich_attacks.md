@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sandwich Attacks on Decentralized Exchanges
+description: An expository walkthrough of sandwich attacks on decentralized exchanges, based on Zhou et al.'s paper.
 date: 2020-11-25 00:18:23 +0700
 tags:
   - blockchain

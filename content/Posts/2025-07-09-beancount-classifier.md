@@ -1,5 +1,6 @@
 ---
 title: How I Automated My Accounting with RAG and Local LLMs
+description: Building a local-LLM pipeline with RAG to auto-categorize Beancount transactions — without sending financial data to the cloud.
 date: 2025-09-07
 tags:
   - LLM

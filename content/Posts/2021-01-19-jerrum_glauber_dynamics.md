@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Glauber Dynamics is rapid mixing for k > 2Δ
+description: A simple path-coupling proof that Glauber Dynamics mixes rapidly for k > 2Δ, using Jerrum's clever coupling.
 date: 2021-01-19 00:18:23 +0700
 tags:
   - MCMC

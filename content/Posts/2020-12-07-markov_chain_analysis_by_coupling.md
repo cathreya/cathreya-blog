@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Analyzing Markov Chains using Coupling
+description: A worked example showing how to bound the mixing time of a Markov chain using coupling, starting from a simple chain over binary strings.
 date: 2020-12-07 00:18:23 +0700
 tags:
   - MCMC

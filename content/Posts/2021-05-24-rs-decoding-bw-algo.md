@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Topics in Coding Theory: RS Codes and the Berlekamp-Welch Algorithm"
+description: Course notes and a Python implementation of the Berlekamp-Welch algorithm for decoding Reed-Solomon codes when error locations are unknown.
 date: 2021-05-25 00:18:23 +0700
 tags:
   - coding_theory
