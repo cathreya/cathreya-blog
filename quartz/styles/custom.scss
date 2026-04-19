@@ -80,7 +80,7 @@ body[data-slug="about"] .content-meta {
 
 body[data-slug="index"] {
   .page-header .article-title {
-    font-size: 1.75rem;
+    font-size: clamp(1.25rem, 4vw, 1.75rem);
     font-weight: 600;
     line-height: 1.15;
     letter-spacing: normal;
