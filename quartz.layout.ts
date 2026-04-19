@@ -18,9 +18,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
+    Component.DesktopOnly(Component.Search()),
     Component.DesktopOnly(Component.TableOfContents()),
   ],
   right: [],
@@ -32,9 +30,7 @@ export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.ArticleTitle(), Component.ContentMeta()],
   left: [
     Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
+    Component.DesktopOnly(Component.Search()),
     Component.DesktopOnly(Component.TableOfContents()),
   ],
   right: [],
@@ -48,8 +44,7 @@ export const indexPageLayout: PageLayout = {
   beforeBody: [Component.DesktopOnly(Component.ArticleTitle())],
   left: [
     Component.PageTitle(),
-    Component.Search(),
-    Component.Darkmode(),
+    Component.DesktopOnly(Component.Search()),
     Component.DesktopOnly(Component.AboutMe()),
   ],
   right: [],

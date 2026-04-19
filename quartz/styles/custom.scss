@@ -1,37 +1,6 @@
 @use "./base.scss";
 @use "./variables.scss" as *;
 
-// In the stacked/narrow layout, Quartz sets the left sidebar's row gap to 0.
-// Restore some breathing room between title, search, and darkmode.
-@media all and (max-width: $fullPageWidth) {
-  .page > #quartz-body .sidebar.left {
-    flex-wrap: wrap;
-    row-gap: 0.75rem;
-    column-gap: 0.75rem;
-
-    & > .page-title-block {
-      flex: 1 1 100%;
-    }
-
-    & > .spacer {
-      display: none;
-    }
-
-    & > .search {
-      flex: 1 1 auto;
-      min-width: 0;
-    }
-
-    & > .search #search-icon {
-      width: 100%;
-    }
-
-    & > .darkmode {
-      flex: 0 0 auto;
-    }
-  }
-}
-
 @media all and (min-width: calc(#{$fullPageWidth} + 1px)) {
   // Default sidebar padding (4rem each side) is too aggressive at our narrow
   // sidePanelWidth; tighten so content fits comfortably.
@@ -39,21 +8,11 @@
     padding: 0 1.5rem;
   }
 
-  // Put search + darkmode on the same row in the left sidebar
-  #quartz-body .sidebar.left {
-    & > .search {
-      width: calc(100% - 3.25rem);
-      max-width: none;
-      align-self: flex-start;
-      flex: 0 0 auto;
-    }
-
-    & > .darkmode {
-      // sidebar has gap: 2rem and search is 2rem tall, so darkmode naturally
-      // sits 4rem below the top of search. Pull it back up and push it right.
-      margin-top: -4rem;
-      align-self: flex-end;
-    }
+  #quartz-body .sidebar.left > .search {
+    width: 100%;
+    max-width: none;
+    align-self: flex-start;
+    flex: 0 0 auto;
   }
 
   // The right sidebar is empty site-wide. Re-center the (left sidebar + center)
@@ -68,11 +27,10 @@
     margin-right: 0;
   }
 
-  // On the index page the sidebar is tall (PageTitle + nav + search + darkmode +
-  // AboutMe bio + socials), so vertically centering it lines up nicely with the
-  // post list. On content pages the sidebar has only four short items and
-  // centering leaves 150+px of blank space above the branding, misaligning with
-  // the main column's breadcrumb. Only center on the index.
+  // On the index page the sidebar is tall (PageTitle + nav + search + AboutMe
+  // bio + socials), so vertically centering it lines up nicely with the post
+  // list. On content pages the sidebar is short and centering leaves blank
+  // space above the branding. Only center on the index.
   body[data-slug="index"] .page > #quartz-body > .sidebar.left {
     top: 0;
     bottom: 0;
