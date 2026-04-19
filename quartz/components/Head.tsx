@@ -6,7 +6,11 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 
 export default (() => {
   const Head: QuartzComponent = ({ cfg, fileData, externalResources }: QuartzComponentProps) => {
-    const title = fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
+    const frontmatterTitle =
+      fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
+    const siteTitle = cfg.pageTitle ?? frontmatterTitle
+    const title =
+      fileData.slug === "index" ? siteTitle : `${frontmatterTitle} — ${siteTitle}`
     const description =
       fileData.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description
     const { css, js } = externalResources
