@@ -1,3 +1,3 @@
 ---
-title: Athreya's Blog
+title: Writing
 ---
