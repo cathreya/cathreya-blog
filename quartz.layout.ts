@@ -45,7 +45,7 @@ export const indexPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.DesktopOnly(Component.Search()),
-    Component.DesktopOnly(Component.AboutMe()),
+    Component.AboutMe(),
   ],
   right: [],
   afterBody: [

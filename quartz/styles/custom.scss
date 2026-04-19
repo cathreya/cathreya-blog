@@ -1,6 +1,20 @@
 @use "./base.scss";
 @use "./variables.scss" as *;
 
+// In the stacked/narrow layout, the left sidebar is a flex row. Force each
+// item onto its own row so PageTitle and AboutMe stack vertically instead
+// of sitting side by side.
+@media all and (max-width: $fullPageWidth) {
+  .page > #quartz-body .sidebar.left {
+    flex-wrap: wrap;
+    row-gap: 1rem;
+
+    & > * {
+      flex: 1 1 100%;
+    }
+  }
+}
+
 @media all and (min-width: calc(#{$fullPageWidth} + 1px)) {
   // Default sidebar padding (4rem each side) is too aggressive at our narrow
   // sidePanelWidth; tighten so content fits comfortably.
