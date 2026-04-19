@@ -15,10 +15,6 @@ const AboutMe: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
       <p class="about-me-links">
         <a href="/about" class="internal">More about me →</a>
       </p>
-      <p class="about-me-links">
-        <a href="/static/pdf/1_page_Research_SWE_CV.pdf">Resume</a> ·{" "}
-        <a href="https://www.admonymous.co/threya">Feedback</a>
-      </p>
       <ul class="about-me-socials">
         <li>
           <a href="mailto:cathreya98@gmail.com" aria-label="Email">
