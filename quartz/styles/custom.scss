@@ -22,11 +22,19 @@
     padding: 0 1.5rem;
   }
 
-  #quartz-body .sidebar.left > .search {
-    width: 100%;
-    max-width: none;
-    align-self: flex-start;
-    flex: 0 0 auto;
+  #quartz-body .sidebar.left {
+    text-align: center;
+    align-items: center;
+
+    & > .search {
+      width: 100%;
+      max-width: none;
+      flex: 0 0 auto;
+    }
+
+    & > .about-me ul.about-me-socials {
+      justify-content: center;
+    }
   }
 
   // The right sidebar is empty site-wide. Re-center the (left sidebar + center)

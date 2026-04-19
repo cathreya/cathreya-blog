@@ -9,6 +9,7 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const aboutHref = baseDir === "." ? "./about" : `${baseDir}/about`
   return (
     <div class={classNames(displayClass, "page-title-block")}>
+      <img class="page-title-avatar" src="/static/avatar.jpg" alt="" aria-hidden="true" />
       <h1 class="page-title">
         <a href={baseDir}>{title}</a>
       </h1>
@@ -24,10 +25,30 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
 }
 
 PageTitle.css = `
+.page-title-avatar {
+  display: none;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1.25rem auto;
+  user-select: none;
+}
+@media all and (min-width: 1381px) {
+  .page-title-avatar {
+    display: block;
+  }
+}
 .page-title {
   margin: 0;
   font-size: clamp(1.4rem, 5vw, 1.75rem);
   line-height: 1.15;
+}
+@media all and (min-width: 1381px) {
+  .page-title,
+  .page-title-block .page-nav {
+    text-align: center;
+  }
 }
 .page-title-block .page-nav {
   margin-top: 0.35rem;
