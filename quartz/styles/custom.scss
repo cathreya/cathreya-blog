@@ -13,6 +13,10 @@
       flex: 1 1 100%;
     }
 
+    & > .spacer {
+      display: none;
+    }
+
     & > .search {
       flex: 1 1 auto;
       min-width: 0;
