@@ -26,6 +26,8 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
 PageTitle.css = `
 .page-title {
   margin: 0;
+  font-size: clamp(1.4rem, 5vw, 1.75rem);
+  line-height: 1.15;
 }
 .page-title-block .page-nav {
   margin-top: 0.35rem;
@@ -36,6 +38,7 @@ PageTitle.css = `
   background-color: transparent;
   color: var(--secondary);
   text-decoration: none;
+  white-space: nowrap;
 }
 .page-title-block .page-nav a:hover {
   text-decoration: underline;

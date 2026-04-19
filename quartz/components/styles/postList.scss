@@ -7,24 +7,28 @@
   }
 
   ol.post-list-ol {
-    list-style-position: inside;
+    list-style: none;
     padding: 0;
     margin: 0;
 
     & > li {
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
       padding: 0.35rem 0;
       line-height: 1.4;
       font-size: 1rem;
-
-      &::marker {
-        color: var(--gray);
-        font-variant-numeric: tabular-nums;
-      }
+      white-space: nowrap;
+      overflow: hidden;
 
       a.internal {
         background-color: transparent;
         color: var(--secondary);
         text-decoration: none;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        min-width: 0;
+        flex: 0 1 auto;
 
         &:hover {
           text-decoration: underline;
@@ -33,9 +37,18 @@
     }
   }
 
+  .post-list-num {
+    color: var(--gray);
+    font-variant-numeric: tabular-nums;
+    flex: 0 0 auto;
+    min-width: 1.75rem;
+  }
+
   .post-list-meta {
     color: var(--gray);
     font-style: italic;
     font-size: 0.9rem;
+    flex: 0 0 auto;
+    margin-left: auto;
   }
 }

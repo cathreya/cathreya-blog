@@ -27,24 +27,23 @@ export default ((userOpts?: Partial<Options>) => {
     const opts = { ...defaultOptions, ...userOpts }
     const pages = allFiles.filter(opts.filter).sort(byDateAndAlphabetical(cfg)).slice(0, opts.limit)
 
+    const total = pages.length
     return (
       <div class={classNames(displayClass, "post-list")}>
         {opts.title && <h3 class="post-list-title">{opts.title}</h3>}
-        <ol reversed class="post-list-ol">
-          {pages.map((page) => {
+        <ol class="post-list-ol">
+          {pages.map((page, i) => {
             const title = page.frontmatter?.title ?? "Untitled"
             return (
               <li class="post-list-li">
+                <span class="post-list-num">{total - i}.</span>
                 <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
                   {title}
                 </a>
                 {page.dates && (
-                  <>
-                    {" "}
-                    <span class="post-list-meta">
-                      » <Date date={getDate(cfg, page)!} locale={cfg.locale} />
-                    </span>
-                  </>
+                  <span class="post-list-meta">
+                    » <Date date={getDate(cfg, page)!} locale={cfg.locale} />
+                  </span>
                 )}
               </li>
             )

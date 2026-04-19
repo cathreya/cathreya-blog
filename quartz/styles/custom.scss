@@ -5,7 +5,13 @@
 // Restore some breathing room between title, search, and darkmode.
 @media all and (max-width: $fullPageWidth) {
   .page > #quartz-body .sidebar.left {
-    gap: 1.25rem;
+    flex-wrap: wrap;
+    row-gap: 0.75rem;
+    column-gap: 1.25rem;
+
+    & > .page-title-block {
+      flex: 1 1 100%;
+    }
 
     & > .search {
       flex-grow: 0;
@@ -70,16 +76,7 @@ body[data-slug="about"] .content-meta {
   display: none;
 }
 
-// Home-page hero title: big, bold, and readable
 body[data-slug="index"] {
-  .page-header .article-title {
-    font-size: 3rem;
-    font-weight: 800;
-    letter-spacing: -0.02em;
-    margin: 0 0 1.5rem 0;
-    color: var(--secondary);
-  }
-
   .center > hr {
     margin: 0.5rem auto 0 auto;
   }
