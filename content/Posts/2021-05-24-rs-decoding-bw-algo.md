@@ -13,4 +13,6 @@ Reed Solomon codes are fairly famous even outside of coding theory, but most cou
 
 I also coded up this algorithm. The implementation can be found [here](https://github.com/cathreya/cathreya.github.io/blob/master/static/notebooks/Berlekamp-Welch%20Algorithm.ipynb).
 
-<object data="/static/pdf/RS_Codes_BW_Algo.pdf" width="100%" height="1000" type='application/pdf'/>
+<object data="/static/pdf/RS_Codes_BW_Algo.pdf" width="100%" height="1000" type='application/pdf'>
+  <p><a href="/static/pdf/RS_Codes_BW_Algo.pdf">Download PDF</a></p>
+</object>

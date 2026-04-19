@@ -13,4 +13,6 @@ Glauber Dynamics is a well studied Markov Chain to sample k-colorings of a graph
 
 Here are the notes I took while reading his wonderful paper. **Unlike my other posts these notes aren't of very high quality.** However I decided to put them here as a placeholder while I find the time to refine them into a proper blog post.
 
-<object data="/static/pdf/Vigoda-Chain.pdf" width="100%" height="1000" type='application/pdf'/>
+<object data="/static/pdf/Vigoda-Chain.pdf" width="100%" height="1000" type='application/pdf'>
+  <p><a href="/static/pdf/Vigoda-Chain.pdf">Download PDF</a></p>
+</object>

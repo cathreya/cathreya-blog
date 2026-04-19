@@ -12,4 +12,6 @@ An interesting case is when the entire network isn't available, either because t
 
 I wrote code trying to recreate results for small networks. The Julia Jupyer Notebook can be found [here](https://github.com/cathreya/cathreya.github.io/blob/master/static/notebooks/NLD_Project.ipynb).
 
-<object data="/static/pdf/NLD_Project_Report.pdf" width="100%" height="1000" type='application/pdf'/>
+<object data="/static/pdf/NLD_Project_Report.pdf" width="100%" height="1000" type='application/pdf'>
+  <p><a href="/static/pdf/NLD_Project_Report.pdf">Download PDF</a></p>
+</object>

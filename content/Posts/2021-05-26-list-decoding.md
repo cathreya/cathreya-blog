@@ -17,4 +17,6 @@ Finally we explore three algorithms for List Decoding. Each algorithm build upon
 
 In case you prefer LaTeX, I have the last lecture (with the third algorithm) scribed [here.](/static/pdf/TCT_Lec_10_Scribe.pdf)
 
-<object data="/static/pdf/ListDecoding.pdf" width="100%" height="1000" type='application/pdf'/>
+<object data="/static/pdf/ListDecoding.pdf" width="100%" height="1000" type='application/pdf'>
+  <p><a href="/static/pdf/ListDecoding.pdf">Download PDF</a></p>
+</object>
