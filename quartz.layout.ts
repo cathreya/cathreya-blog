@@ -46,7 +46,7 @@ const isPost = (f: { slug?: string }) => !!f.slug?.startsWith("Posts/")
 
 // Custom layout specifically for the index/landing page
 export const indexPageLayout: PageLayout = {
-  beforeBody: [],
+  beforeBody: [Component.DesktopOnly(Component.ArticleTitle())],
   left: [
     Component.PageTitle(),
     Component.Search(),
