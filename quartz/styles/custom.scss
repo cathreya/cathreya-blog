@@ -88,6 +88,14 @@ body[data-slug="about"] .content-meta {
   display: none;
 }
 
+// Quartz's default TagList sets `justify-self: end`, which floats the pills to
+// the right under the ContentMeta row — looks disconnected from the title.
+// Left-align on content pages so the tags sit under the meta line.
+.popover-hint > ul.tags {
+  justify-self: start;
+  justify-content: flex-start;
+}
+
 body[data-slug="index"] {
   .page-header .article-title {
     font-size: 1.75rem;
