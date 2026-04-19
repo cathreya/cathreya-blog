@@ -87,8 +87,9 @@ body[data-slug="about"] .content-meta {
 body[data-slug="index"] {
   .page-header .article-title {
     font-size: 1.75rem;
-    font-weight: 700;
-    letter-spacing: -0.01em;
+    font-weight: 600;
+    line-height: 1.15;
+    letter-spacing: normal;
     margin: 0 0 1rem 0;
     color: var(--secondary);
   }
