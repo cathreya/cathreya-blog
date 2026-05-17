@@ -7,7 +7,7 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const title = cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title
   const baseDir = pathToRoot(fileData.slug!)
   const aboutHref = baseDir === "." ? "./about" : `${baseDir}/about`
-  const showAvatar = fileData.slug === "index"
+  const showAvatar = fileData.slug === "index" || fileData.slug === "about"
   return (
     <div class={classNames(displayClass, "page-title-block")}>
       {showAvatar && (
