@@ -54,3 +54,5 @@ Everything for a captured utterance lives in a single Firestore `Capture` docume
 The practice UI is deliberately boring: FastAPI templates, vanilla HTML, CSS, JS. The cards are scheduled by the FSRS-6 algorithm, which has been an option in Anki since 2023. This is an actively maintained implementation and so I avoided reinventing the wheel here. To practice speaking I added a third type of card called a shadowing card, where you're simply expected to repeat the sentence. After revealing each answer, you rate it on a scale of *Again, Hard, Good, Easy*, and the algorithm schedules it for the next revision appropriately.
 
 Put all together we have a seamless, low-friction capture to practice experience. Now all I have to do is actually use it :).
+
+I’ve put the code on GitHub if you want to poke around or adapt it for your own target language: [language-learner](https://github.com/cathreya/language-learner).
