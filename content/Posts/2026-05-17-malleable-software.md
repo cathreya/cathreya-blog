@@ -1,0 +1,29 @@
+---
+title: What Notion can teach us about the future of software engineering in a post AI world
+date: 2026-05-17
+tags:
+  - software
+---
+Imagine a house where the rooms are laid out for you and you were unable to change anything at all. Such a house would be unacceptable to most people. This is the analogy Max Schoening uses to describe most software. The product is carefully designed by some talented people and the user is simply a passenger and is powerless to change anything. Think of a productivity system like the Atlassian suite. Each component is built to serve a system. A highly effective system but one that is rigid and unchanging. This is a house laid out by a team of top interior designers and once you understand why there's a giant whiteboard in the living room tracking everything that keeps the house running, its quite a livable place. However, if your life changes and you need to move a desk closer to a window, you need to file a request with the designers who may not give you what you exactly want or in the timeline in which you need it.
+
+The other option is unfortunately to build your own system. We all know that one person who must write his notes on Vim in plain markdown and sync them to other devices with Syncthing, maintain a todo list on Todoist and has some IFTTT automation set up to do something every time an email arrives to a particular inbox. This is the other extreme. A house where everything is custom. You chose each piece of furniture, from different manufacturers and try to make the mosaic make sense. You can change things however you want, swap out furniture but everything is on you.
+
+Max Schoening describes the term *Malleable Software* as "software that works closer to the interest of people that use it than the corporation that creates it". Malleable software bridges these two extremes: software that can achieve its goal while allowing its users to use it in a way that works for them.
+
+Notion, where Max currently works, is an excellent example of this in practice. Notion gives you all the building blocks you need to construct a productivity system that works for you. But none of it is mandatory. You can include the components you need, disregard the ones you don't but you're guaranteed a cohesive whole. I think of Notion as a house where the pieces of furniture are decided but you are free to move them around and arrange them how you wish and somehow they just work well together.
+
+But what does this have to do with the process of actually engineering the software? 
+
+Historically, if you want to solve a problem using software have had two options. Either find a product that comes close enough and work around it, analogous to our Atlassian example, or build the product in-house, analogous to the duct taped custom set up. SaaS offerings have thrived because the cost of building was so high that it was time and cost efficient to simply pay for an existing solution. This solution may not meet all requirements or have extra features you don't need but it was preferable over the cost of engineering a custom solution.
+
+Agentic AI flips this decision. It is now affordable to build solutions that fit your exact problem shape. 
+
+Malleable software is having its moment now. With agentic coding tools commoditizing the technical aspects of building, there is a lot of talk about a bold future where all software is bespoke and custom. Tools like Codex, Claude Code, Cursor, and Antigravity operate at the code level. The expressiveness of code basically allows near infinite freedom allowing you to build exactly what you need. While it seems inevitable that all software goes that direction, and all SaaS is replaced by individual instances, I don't think the near future is going to be that simple. 
+
+Software shared widely benefits from greatly from the community: be it bugs, feature requests, security holes or even contributions in the case of open source. Max calls these out in the podcast as "communal tools". You don't want to setup your linux distribution and waste time figuring out why your trackpad doesn't work. Battle-tested libraries, frameworks, and products have figured out a bunch of these details already and even if its possible to build these from scratch, it is just better to use them.
+
+In my opinion the near term is going to see a lot of these "constrained" builds. High level no-code agentic tools like Lovable or Replit do basically this. Instead of writing things from scratch, the AI plumbs together well tested frameworks for each component. This is how most application-level software engineering works today and these tools replicate this behavior. I personally try and use Claude Code the same way. I have my prompts and skills setup to try and find standard solutions for most of my goals before attempting to write custom solutions. This has the added benefit of making the code easy to review. And so there is still a ton of value in building and maintaining these standard solutions. In the furniture analogy, these are the furniture manufacturers and designers who have put in the work to make a reliable product.
+
+There is also a class of people who would simply pay a professional to arrange their living room. To them the cognitive overhead of deciding components, arranging them and personalizing things is more than the value they get from the ability to modify. They are paying someone who has worked on this extensively and trust their judgement and taste in exchange for giving up control over the minutiae. There will continue to be buyers in software for a polished product, seamless experience and support. 
+
+Predicting exponentials are hard. If models get so good that writing new software from scratch is somehow more trustworthy and reliable than long running tools, then everything I said is moot. But until then, I think its important for software to remain communal.
